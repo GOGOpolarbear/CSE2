@@ -17,6 +17,7 @@ public class WelcomeClass{
         System.out.println("-----------");
         System.out.println("  ^  ^  ^  ^  ^  ^");
         System.out.println(" / \\/ \\/ \\/ \\/ \\/ \\ ");
+// the "\" is special characteristic and need to be escaped, use double \\ to solve this
         System.out.println("<-Y--U--Y--2--1--7->");
         System.out.println(" \\ /\\ /\\ /\\ /\\ /\\ /");
         System.out.println("  v  v  v  v  v  v");
