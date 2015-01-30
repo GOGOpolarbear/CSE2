@@ -30,9 +30,9 @@ public class Cyclometer {
     	distanceTrip1=distanceTrip1/inchesPerFoot/feetPerMile; // Converts distance into miles
 	    distanceTrip2=distanceTrip2/inchesPerFoot/feetPerMile; 
 	    totalDistance=distanceTrip1+distanceTrip2; // add up two distance for total
-	    System.out.println("Trip 1 was "+distanceTrip1+" miles");
-	    System.out.println("Trip 2 was "+distanceTrip2+" miles");
-	    System.out.println("The total distance was "+totalDistance+" miles");
+	    System.out.println("Trip 1 was "+distanceTrip1+" miles.");
+	    System.out.println("Trip 2 was "+distanceTrip2+" miles.");
+	    System.out.println("The total distance was "+totalDistance+" miles.");
         //print out the distance of the trips
     }
 }
