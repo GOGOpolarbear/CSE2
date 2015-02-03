@@ -40,12 +40,12 @@ public class Arithmetic {
         //cost of actually paid
             double actualPaid$=allTotalCost$+allTotalTax$;
         //print out    
-        System.out.println("the cost of socks are $"+socksTotalCost$);
-        System.out.println("the cost of glasses are $"+glassesTotalCost$);
-        System.out.println("the cost of envelopes are $"+envelopesTotalCost$);
-        System.out.println("the cost of all purchase are $"+allTotalCost$);
-        System.out.println("the actual payment are $"
-        +String.format("%.2f", actualPaid$));
+            System.out.println("the cost of socks are $"+socksTotalCost$);
+            System.out.println("the cost of glasses are $"+glassesTotalCost$);
+            System.out.println("the cost of envelopes are $"+envelopesTotalCost$);
+            System.out.println("the cost of all purchase are $"+allTotalCost$);
+            System.out.println("the actual payment are $"
+            +String.format("%.2f", actualPaid$));
         //found this method online, can eliminate extra digits in a more precise way
     }
 }
