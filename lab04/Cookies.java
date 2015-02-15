@@ -72,7 +72,7 @@ public class Cookies{
             System.out.print("You don't have enough cookies. ");
             System.out.println("You need to buy at least "
             +nExtra+" more.");
-        }     
+        }     //end of the most outer if
         
     }
 }
