@@ -6,6 +6,27 @@
 import java.util.Scanner;
 
 public class WhichNumber{
+    public static void F(){// "F"method for final judge code
+        Scanner myScanner=new Scanner(System.in);
+        //define string for y/Y/n/N
+        String yes1="Y";
+        String yes2="y";
+        String no1 ="N";
+        String no2 ="n";
+        //final judge
+        String finalJudge=myScanner.next();
+        if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
+        System.out.println("I am so good at it!");
+        }
+        else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
+            System.out.println("You are lying!");
+        }
+        else{
+        System.out.println("You didn't answer my question.");
+        }
+        //end of final judge
+        
+    }
         
     public static void main(String [] agrs){
         //define the scanner
@@ -31,18 +52,7 @@ public class WhichNumber{
                 //6
                 System.out.print("Is your number 6? (input Y/N or y/n): ");
                 //end of guessing
-                //final judge
-                String finalJudge=myScanner.next();
-                if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                    System.out.println("I am so good at it!");
-                }
-                else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                    System.out.println("You are lying!");
-                }
-                else{
-                System.out.println("You didn't answer my question.");
-                }
-                //end of final judge
+                F();//final judge
             }
             else if (no1.equals(divideBy3)||no2.equals(divideBy3)){
                 System.out.print("Is the number divisible by 4? (input Y/N or y/n): ");
@@ -55,34 +65,12 @@ public class WhichNumber{
                     if (yes1.equals(factorLarger1)||yes2.equals(factorLarger1)){
                         System.out.print("Is your number 8? (input Y/N or y/n): ");
                         //end of guessing
-                        //final judge
-                        String finalJudge=myScanner.next();
-                        if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                            System.out.println("I am so good at it!");
-                        }
-                        else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                            System.out.println("You are lying!");
-                        }
-                        else{
-                        System.out.println("You didn't answer my question.");
-                        }
-                        //end of final judge
+                        F();//final judge
                         }
                     else if(no1.equals(factorLarger1)||no2.equals(factorLarger1)){
                         System.out.print("Is your number 4? (input Y/N or y/n): ");
                         //end of guessing
-                        //final judge
-                        String finalJudge=myScanner.next();
-                        if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                            System.out.println("I am so good at it!");
-                        }
-                        else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                            System.out.println("You are lying!");
-                        }
-                        else{
-                        System.out.println("You didn't answer my question.");
-                        }
-                        //end of final judge
+                        F();//final judge
                     }
                     else{
                         System.out.println("Sorry, it is an invalid input.");
@@ -95,34 +83,12 @@ public class WhichNumber{
                     if (yes1.equals(divideBy5)||yes2.equals(divideBy5)){
                         System.out.print("Is your number 10? (input Y/N or y/n): ");
                         //end of guessing
-                        //final judge
-                        String finalJudge=myScanner.next();
-                        if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                            System.out.println("I am so good at it!");
-                        }
-                        else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                            System.out.println("You are lying!");
-                        }
-                        else{
-                        System.out.println("You didn't answer my question.");
-                        }
-                        //end of final judge
+                        F();//final judge
                     }
                     else if (no1.equals(divideBy5)||no2.equals(divideBy5)){
                         System.out.print("Is your number 2? (input Y/N or y/n): ");
                         //end of guessing
-                        //final judge
-                        String finalJudge=myScanner.next();
-                        if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                            System.out.println("I am so good at it!");
-                        }
-                        else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                            System.out.println("You are lying!");
-                        }
-                        else{
-                        System.out.println("You didn't answer my question.");
-                        }
-                        //end of final judge
+                        F();//final judge
                     }
                 }
                 else{
@@ -145,34 +111,12 @@ public class WhichNumber{
                 if (yes1.equals(factorLarger1)||yes2.equals(factorLarger1)){
                     System.out.print("Is your number 9? (input Y/N or y/n): ");
                     //end of guessing
-                    //final judge
-                    String finalJudge=myScanner.next();
-                    if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                        System.out.println("I am so good at it!");
-                    }
-                    else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                        System.out.println("You are lying!");
-                    }
-                    else{
-                    System.out.println("You didn't answer my question.");
-                    }
-                    //end of final judge
+                    F();//final judge
                     }
                 else if (no1.equals(factorLarger1)||no2.equals(factorLarger1)){
                     System.out.print("Is your number 3? (input Y/N or y/n): ");
                     //end of guessing
-                    //final judge
-                    String finalJudge=myScanner.next();
-                    if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                        System.out.println("I am so good at it!");
-                    }
-                    else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                        System.out.println("You are lying!");
-                    }
-                    else{
-                    System.out.println("You didn't answer my question.");
-                    }
-                    //end of final judge
+                    F();//final judge
                     }
                     else{
                         System.out.println("Sorry, it is an invalid input.");
@@ -185,18 +129,7 @@ public class WhichNumber{
                     //7
                     System.out.print("Is your number 7? (input Y/N or y/n): ");
                     //end of guessing
-                    //final judge
-                    String finalJudge=myScanner.next();
-                    if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                        System.out.println("I am so good at it!");
-                    }
-                    else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                        System.out.println("You are lying!");
-                    }
-                    else{
-                    System.out.println("You didn't answer my question.");
-                    }
-                    //end of final judge
+                    F();//final judge
                 }
                 else if (no1.equals(larger6)||no2.equals(larger6)){
                     System.out.print("Is it less than 3? (input Y/N or y/n): ");
@@ -205,34 +138,12 @@ public class WhichNumber{
                         if (yes1.equals(less3)||yes2.equals(less3)){
                             System.out.print("Is your number 1? (input Y/N or y/n): ");
                             //end of guessing
-                            //final judge
-                            String finalJudge=myScanner.next();
-                            if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                                System.out.println("I am so good at it!");
-                            }
-                            else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                                System.out.println("You are lying!");
-                            }
-                            else{
-                            System.out.println("You didn't answer my question.");
-                            }
-                            //end of final judge
+                            F();//final judge
                         }
                         else if (no1.equals(less3)||no2.equals(less3)){
                             System.out.print("Is your number 5? (input Y/N or y/n): ");
                             //end of guessing
-                            //final judge
-                            String finalJudge=myScanner.next();
-                            if (yes1.equals(finalJudge)||yes2.equals(finalJudge)){
-                                System.out.println("I am so good at it!");
-                            }
-                            else if (no1.equals(finalJudge)||no2.equals(finalJudge)){
-                                System.out.println("You are lying!");
-                            }
-                            else{
-                                System.out.println("You didn't answer my question.");
-                            }
-                            //end of final judge
+                            F();//final judge
                         }
                         else{
                             System.out.println("Sorry, it is an invalid input.");
